@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color:white
+
+    /*ela ajuda a separar melhor os elementos*/
+}
+.titulo-destaque{ 
+    color:blueviolet /*sempre para chamar um atributo para o css eu preciso colocar um .(ponto)*/
+
+
+}
+.apresentacao{
+    display:flex; /*torna a disposição dos itens mais flexiveis*/
+
+    justify-content:space-between; /* (justify-content: space-between)ele serve para ajustar a disposição dos links lá da página*/
+    align-items:center; /*coloca os itens no centro, alinha melhor os itens*/
+    margin: 5% 15%; /*a margem pode ser usada com porcentagem */
+}
+.apresentacao__conteudo{
+ display: flex;
+ flex-direction: column;/*ele ajuda a trabalhar nelhor os elementos*/  
+ gap: 9px;; /*ajuda a dar mais espaço para os elementos da página*/
+ 
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;/*define o tamanho da fonte*/
+    font-family: 'krona one' , sans-serif;/* o( font-family);trás variedades somente em uma fonte*/
+}
+.apresentacao__conteudo__paragrafo{
+    font-size: 24px;
+    font-family: 'montserrat', sans-serif;
+    
+}
+.apresentacao__links{
+   /* text-decoration:none; tirar o sumblinhado */ /*vê o porque não ta tirando amanhã*/
+  /* padding: 21.5px 0;ajustar as bordas dos links*/ /*vê o porque não ta tirando amanhã*/
+  display: inline-flexbox;
+  justify-content: space-between;
+}
+.apresentacao__links__link{
+text-decoration:none;
+background-color: rgb(98, 0, 255);
+padding: 12.5px 0;
+width: 290px;
+border-radius: 17px;
+font-size: 24px;
+text-align: center;
+color: rgb(255, 0, 221);
+font-weight: 700;/*aumenta a intensidade do negrito da fonte*/
+font-family: 'montserrat',sans-serif
+} /*estudar mais afundo no w3c*/
+
+ul{
+    font-family: 'Montserrat', sans-serif;
+    
+    overflow: hidden;
+    list-style-type: none; /*remover os ícones de lista*/
+
+}
+
+ul li{
+    float:left;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 14px 16px;
+    display: block;
+}
+
+ul li a:hover {
+    background-color:blueviolet;
+    color:#000000;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+    
+
+
